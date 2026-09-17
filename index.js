@@ -12,10 +12,12 @@
  * sumDouble(5, 5); // 20
  */
 export function sumDouble(num1, num2) {
-  if (num1 === num2) {
-    return num1 + num2 * 2;
+  if (num1 === num2q) {
+    const sum = num1 + num2;
+    return sum * 2;
   } else {
-    return num1 + num2;
+    const sum = num1 + num2;
+    return sum;
   }
 }
 
