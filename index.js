@@ -147,7 +147,8 @@ export function isColdAndHot(temp1, temp2) {
  * makeABBA("a", "b"); // "abba"
  */
 export function makeABBA(A, B) {
-  /* TODO */
+  const newString = A + B + B + A;
+  return newString;
 }
 
 /**
